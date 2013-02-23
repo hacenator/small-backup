@@ -1,0 +1,29 @@
+Small backup script 2.2
+
+=================================================================
+
+DISCLAIMER
+This script file has no copyright assigned and is the Public Domain.
+The backup script is distributed in the hope that it will be useful but 
+WITHOUT ANY WARRANTY. ALL WARRANTIES, EXPRESSED OR IMPLIED ARE HEREBY 
+DISCLAIMED. This includes but not limited to warranties of MERCHANTABILITY 
+or FITNESS FOR A PARTICULAR PURPOSE.
+You are free to use this script without limitation.
+
+===================================================================
+
+HOW TO
+
+1. Write in "list" file what files you want to backup. Separate paths with a newline
+2. Configure script. Look for config options in "CONFIG" section of backup.sh file
+3. Run "backup.sh" script with "compress" options to make backups
+4. Run "backup.sh" script with "clean" options to delete old backup files
+
+ChangeLog
+v2.2
+    + Empty directories are now ignored
+    
+v2.1
+    + Logging added
+    + Backup by cron fixes
+    + List file now searching in script directory
